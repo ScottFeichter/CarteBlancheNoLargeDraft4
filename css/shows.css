@@ -1,0 +1,111 @@
+
+.performance {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 1em;
+    width: 80%;
+    height: auto;
+    width: auto;
+    margin-bottom: 2em;
+    border: 1px black solid;
+    animation-delay: 1s;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    transition: color .5s;
+    transition-timing-function: ease-in;
+    transition: background-color .5s;
+    transition-timing-function: ease-out;
+  }
+
+  .performance:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: #ffffff;
+  }
+
+  /* ------ START PERFORMANCE STRUCTURE DIVS ----------------------------*/
+
+  .perHeading {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: .5em;
+  }
+
+  .perfBody {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    justify-content: center;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* border: 2px dashed red; */
+  }
+
+  .row {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: .25em;
+    /* border: 2px dashed blue; */
+  }
+
+  /* ------ START PERFORMANCE DATA DIVS ----------------------------*/
+
+  /* they all share perfData class */
+  .perfData {
+    text-align: center;
+    font-size: larger;
+    margin: .1em .2em;
+    font-weight: 500;
+  }
+
+  /* heading data */
+  .perfTitle {
+    font-size: xx-large;
+    font-weight: 600;
+  }
+
+  .perfAt {
+    font-size: xx-large;
+    font-weight: 600;
+  }
+
+  .perfLocation {
+    font-size: xx-large;
+    font-weight: 600;
+  }
+
+  /* body data */
+  /* column one */
+  .perfDay {}
+  .perfTime {}
+  .perfMeridiem {}
+  .perfTimeZone {}
+
+  /* column two */
+  .perfMonth {}
+  .perfDayNum {}
+  .perfYear {}
+
+  /* column three */
+  .perfAddyNumber {}
+  .perfAddyStreet {}
+  .perfAddyCity {}
+  .perfAddyState {}
+  .perfAddyZip {}
+
+  /* column four */
+  .perfPhone {}
+  .perfWeb{}
+
+  /* column five */
+  .perfLink {}
+  .perfICS {}

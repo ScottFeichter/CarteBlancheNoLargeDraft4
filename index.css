@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+:root {
+      --livvic-thin {
+        font-family: "Livvic", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+
+      --livvic-extralight {
+        font-family: "Livvic", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+
+      --livvic-light {
+        font-family: "Livvic", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      --livvic-regular {
+        font-family: "Livvic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      --livvic-medium {
+        font-family: "Livvic", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      --livvic-semibold {
+        font-family: "Livvic", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+      --livvic-bold {
+        font-family: "Livvic", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      --livvic-black {
+        font-family: "Livvic", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+
+      --livvic-thin-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+
+      --livvic-extralight-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+
+      --livvic-light-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+
+      --livvic-regular-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      --livvic-medium-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+
+      --livvic-semibold-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+
+      --livvic-bold-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      --livvic-black-italic {
+        font-family: "Livvic", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+    }
+
+* {
+      margin: 0;
+      padding: 0;
+  }
+
+body {
+  background-color: white;
+}
+
+h1 {
+  visibility: hidden;
+  position: absolute;
+  margin: 0;
+  color: rgb(0, 0, 0);
+  font-family: 'Livvic', sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .20em;
+  text-align: center;
+  padding-top: 1rem;
+  /* border: purple 3px solid; */
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+#logo {
+  /* margin: auto; */
+  visibility: hidden;
+  position: fixed;
+  display: inline;
+  padding: 1.5rem;
+  height: 7rem;
+  width: 7rem;
+  background: none;
+  /* border: 2px pink dashed; */
+}
+
+/* ============== HEADER START ============= */
+
+header {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 15%)
+  /* border: 2px blue dotted; */
+}
+
+/* <<<<<<<<<<<  START PAGE NAV >>>>>>>>>>>>> */
+
+#navContainer {
+  /* margin:auto; */
+  padding-bottom: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  animation-delay: 1s;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  transition: color .5s;
+  transition-timing-function: ease-in;
+  transition: background-color .5s;
+  transition-timing-function: ease-out;
+}
+
+#pageNav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  /* border: 3px green dotted; */
+}
+
+#pageNav a {
+  width: 10rem;
+  margin: 1px;
+  font-family: 'Livvic', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: none;
+  border-radius: 5px;
+  color: black;
+
+
+  transition: color .25s;
+  transition-timing-function: ease-in;
+  transition: background-color 1s;
+  transition-timing-function: ease-out;
+}
+
+#pageNav a:hover {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+/* <<<<<<<<<<< END PAGE NAV >>>>>>>>>>>>> */
+
+#navContainer hr{
+  width: 70%;
+  margin: auto;
+  border: solid 1px black;
+}
+
+/* START SOCIAL NAV */
+
+#socialNav {
+  padding: .75rem 0rem 0rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+
+  animation-delay: 1s;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  transition: color .5s;
+  transition-timing-function: ease-in;
+  transition: background-color .5s;
+  transition-timing-function: ease-out;
+
+  /* border: 5px green dashed; */
+}
+
+#socialNav .fa {
+  width: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: none;
+  /* border-radius: 5px; */
+  color: black;
+
+  transition: color .25s;
+  transition-timing-function: ease-in;
+  transition: background-color 1s;
+  transition-timing-function: ease-out;
+}
+
+#socialNav .fa:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+/* END SOCIAL NAV */
+
+
+
+/* ============== MAIN START ============= */
+
+main {
+  /* display: inline-flex; */
+  /* border: 2px black solid; */
+}
+

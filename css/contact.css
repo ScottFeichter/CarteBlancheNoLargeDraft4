@@ -1,0 +1,208 @@
+#contactSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    border: 2px red dotted;
+}
+
+figure {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Livvic', sans-serif;
+    border: 2px orange dotted;
+  }
+
+  figcaption {
+    font-family: 'Livvic', sans-serif;
+    display: block;
+    font-size: 2em;
+    background-color: #ffffff;
+    text-align: center;
+    /* border: 2px blue dashed; */
+  }
+
+  #laurentContact {
+    font-family: 'Livvic', sans-serif;
+    padding: 20px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Livvic', sans-serif;
+    font-size: xx-large;
+    /* border: 2px blue dashed; */
+
+    animation-delay: 1s;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    transition: color .5s;
+    transition-timing-function: ease-in;
+    transition: background-color .5s;
+    transition-timing-function: ease-out;
+  }
+
+
+  #laurentPhone {
+    font-family: 'Livvic', sans-serif;
+  }
+
+  #laurentContact a {
+    font-family: 'Livvic', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: #0000EE;
+
+    transition: color .25s;
+    transition-timing-function: ease-in;
+    transition: background-color .25s;
+    transition-timing-function: ease-out;
+  }
+
+  #laurentContact a:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+
+
+  hr {
+    width: 80%;
+    margin: auto;
+
+    animation-delay: 1s;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    transition: color .5s;
+    transition-timing-function: ease-in;
+    transition: background-color .5s;
+    transition-timing-function: ease-out;
+  }
+
+
+  /* MAIL LIST */
+
+
+  #mailListForm {
+    margin-top: 2em;
+    /* margin-bottom: 2em; */
+
+    animation-delay: 1s;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    transition: color .5s;
+    transition-timing-function: ease-in;
+    transition: background-color .5s;
+    transition-timing-function: ease-out;
+  }
+
+
+  #join {
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+  }
+
+  .container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2.5em;
+    /* border: 2px black dotted; */
+  }
+
+
+  input[type=text], input[type=submit] {
+    width: 25%;
+    padding: 12px;
+    margin: 1em;
+    display: inline-block;
+    border: 1px solid #2a2a2a;
+    font-family: 'Livvic', sans-serif;
+    font-size: large;
+  }
+
+  /* Style the submit button */
+  input[type=submit] {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 460;
+    background-color: #0000EE;
+    color: white;
+    border: 1px solid #0000EE;
+
+    transition: color .25s;
+    transition-timing-function: ease-in;
+    transition: background-color .25s;
+    transition-timing-function: ease-out;
+  }
+
+  input[type=submit]:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    /* border: 1px solid #0000EE; */
+  }
+
+  /* SOCIAL */
+
+#social {
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+
+    font-family: 'Livvic', sans-serif;
+
+    animation-delay: 1s;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    transition: color .5s;
+    transition-timing-function: ease-in;
+    transition: background-color .5s;
+    transition-timing-function: ease-out;
+  }
+
+  #socialContainer {
+    margin-top: .5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10em;
+    /* border: 2px brown dotted; */
+
+    animation-delay: 1s;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    transition: color .5s;
+    transition-timing-function: ease-in;
+    transition: background-color .5s;
+    transition-timing-function: ease-out;
+  }
+
+  #socialContainer .fa {
+    font-size: 6em;
+    text-align: center;
+    text-decoration: none;
+
+    transition: color .25s;
+    transition-timing-function: ease-in;
+    transition: background-color .25s;
+    transition-timing-function: ease-out;
+  }
+
+  #socialContainer .fa:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }

@@ -1,0 +1,67 @@
+/* ============START VIDEO CONTAINER============== */
+
+#videosSection {
+    background-position: center;
+    background: no-repeat;
+    background-color: #ffffff;
+}
+
+#videoContainer {
+    margin: auto;
+    padding: 20rem 0 26rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px purple dashed; */
+  }
+
+  #currVid {
+    padding: 4rem;
+    animation: fadeInAnimation ease-in 1s;
+    /* border: 2px red dashed; */
+  }
+
+  #vidGallery {
+    /* border: 2px green dotted; */
+    margin: 0rem 0rem 1rem 0rem;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 1rem;
+  }
+
+
+  #vidGallery h3 {
+    /* !THESE H3 ARE THE CARETS! */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: black;
+    font-size: 2rem;
+
+    transition: color .25s;
+    transition-timing-function: ease-in;
+    transition: background-color 1s;
+    transition-timing-function: ease-out;
+  }
+
+  #vidGallery h3:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  #vidGallery h3:active {
+    background-color: white;
+    color: black;
+    cursor: grabbing;
+
+    transition: color .05s;
+    transition-timing-function: ease-in;
+    transition: background-color .05s;
+    transition-timing-function: ease-out;
+  }
+
+  #vidGallery iframe {
+    animation: fadeInAnimation ease-in 1s;
+    border-radius: 15px;
+  }
