@@ -135,6 +135,7 @@ h1 {
 
 #logo {
   /* margin: auto; */
+  z-index: 3;
   visibility: hidden;
   position: fixed;
   display: inline;
@@ -155,7 +156,8 @@ header {
   display: flex;
   /* align-items: center; */
   justify-content: center;
-  background-color: rgba(255, 255, 255, 15%)
+  background-color: rgba(255, 255, 255, 35%);
+  backdrop-filter: blur(30px);
   /* border: 2px blue dotted; */
 }
 
@@ -274,4 +276,3 @@ main {
   /* display: inline-flex; */
   /* border: 2px black solid; */
 }
-
