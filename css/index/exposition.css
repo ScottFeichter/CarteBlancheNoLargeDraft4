@@ -1,12 +1,90 @@
 /* -------------- HOME START -------------- */
 
 #expositionSection {
-
-    text-align: center;
-    height: 800px;
-
+    margin: auto;
+    background-image: url("../../graphics/aaabstract\ copy.jpg");
+    background-repeat: no-repeat;
     background-position: center;
-    background: no-repeat;
-    background-image: url("../../graphics/aaabstract.png");
     background-size: 100%;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+ #anythingGoes {
+    font-size: 80px;
+    padding-bottom: 4rem;
+ }
+
+ #homeFooter {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+ }
+
+ /* <<< START AUDIO CONTAINER >>>> */
+
+ #audioContainer {
+    margin-top: 0 auto 0 auto;
+    padding: 2rem 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    font-family: 'Livvic', sans-serif;
+    border: 2px orange dotted;
+
+    animation-delay: 2s;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    transition: color 1s;
+    transition-timing-function: ease-in;
+    transition: background-color 1s;
+    transition-timing-function: ease-out;
+  }
+
+  #audioContainer h2 {
+    margin-bottom: .5rem;
+    border-radius: 25px;
+    /* width: 14rem; */
+    font-size: 4rem;
+    text-align: center;
+    font-weight: normal;
+    color: #ffffff;
+
+  }
+
+  #audioContainer audio {
+    width: 40rem;
+    height: 2rem;
+    border-radius: 25px;
+    margin-bottom: 0rem;
+  }
+
+  #audioContainer a {
+    border-radius: 20px;
+    font-family: 'Livvic', sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: .5rem;
+    padding: .25rem 1rem .25rem 1rem;
+    text-align: center;
+
+    transition: color .5s;
+    transition-timing-function: ease-in;
+    transition: background-color .5s;
+    transition-timing-function: ease-out;
+    /* border: 2px blue dashed; */
+  }
+
+  #audioContainer a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  /* <<<< END AUDIO CONTAINER >>>> */
