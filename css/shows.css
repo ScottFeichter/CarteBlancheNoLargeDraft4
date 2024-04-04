@@ -1,3 +1,9 @@
+#showsSection {
+  background-position: center;
+  background: no-repeat;
+  background-color: #ffffff;
+}
+
 
 .performance {
     display: flex;
