@@ -105,6 +105,9 @@
 
 body {
   background-color: white;
+
+
+
 }
 
 h1 {
@@ -133,76 +136,69 @@ h1 {
   }
 }
 
-#logo {
-  /* margin: auto; */
-  z-index: 3;
-  visibility: hidden;
-  position: fixed;
-  display: inline;
-  padding: 1.5rem;
-  height: 7rem;
-  width: 7rem;
-  background: none;
-  /* border: 2px pink dashed; */
-}
+
 
 /* ============== HEADER START ============= */
 
 header {
-  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1.5rem auto 0 auto;
   position: fixed;
   width: 100%;
-  margin: auto;
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
-  background-color: rgba(255, 255, 255, 35%);
-  backdrop-filter: blur(30px);
+  z-index: 3;
+  white-space: nowrap;
+
+  backdrop-filter: blur(10px);
   /* border: 2px blue dotted; */
 }
 
-/* <<<<<<<<<<<  START PAGE NAV >>>>>>>>>>>>> */
+
 
 #navContainer {
-  /* margin:auto; */
-  padding-bottom: .5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: rgba(255, 255, 255, 65%);
+  backdrop-filter: blur(10px);
 
-  animation-delay: 1s;
-  animation: fadeInAnimation ease 2s;
+  padding: 0 2rem 0 1rem;
+  /* margin-left: 8rem; */
+
+
+  /* animation-delay: 1s;
+  animation: fadeInAnimation ease .5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 
   transition: color .5s;
   transition-timing-function: ease-in;
   transition: background-color .5s;
-  transition-timing-function: ease-out;
+  transition-timing-function: ease-out; */
 }
 
+/* <<<<<<<<<<<  START PAGE NAV >>>>>>>>>>>>> */
+
 #pageNav {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: auto;
-  /* border: 3px green dotted; */
+  display: inline;
+  padding-left: 1rem;
 }
 
 #pageNav a {
-  width: 10rem;
-  margin: 1px;
+  font-size: 1.5rem;
+  width: 1.5rem;
+  padding: .25rem 1rem .25rem 1rem;
+
   font-family: 'Livvic', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   text-decoration: none;
   background-color: none;
   border-radius: 5px;
   color: black;
 
+  animation-delay: .15s;
+  animation: fadeInAnimation ease .15s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 
   transition: color .25s;
   transition-timing-function: ease-in;
@@ -215,47 +211,32 @@ header {
   color: #ffffff;
 }
 
-/* <<<<<<<<<<< END PAGE NAV >>>>>>>>>>>>> */
+/* <<<<<<<<<<<<< END PAGE NAV >>>>>>>>>>>>> */
 
-#navContainer hr{
-  width: 70%;
-  margin: auto;
-  border: solid 1px black;
-}
 
-/* START SOCIAL NAV */
+/* <<<<<<<<<<< START SOCIAL NAV >>>>>>>>> */
 
 #socialNav {
-  padding: .75rem 0rem 0rem 0rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 2rem;
-
-  animation-delay: 1s;
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-
-  transition: color .5s;
-  transition-timing-function: ease-in;
-  transition: background-color .5s;
-  transition-timing-function: ease-out;
-
-  /* border: 5px green dashed; */
+  display: inline;
+  padding-left: 1rem;
 }
 
 #socialNav .fa {
-  width: 2rem;
-  padding: 1rem;
   font-size: 1.5rem;
+  width: 1.5rem;
+  padding: 1rem;
+
   text-align: center;
   text-decoration: none;
   background-color: none;
-  /* border-radius: 5px; */
   color: black;
 
-  transition: color .25s;
+  animation-delay: .25s;
+  animation: fadeInAnimation ease .25s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  transition: color 1.25s;
   transition-timing-function: ease-in;
   transition: background-color 1s;
   transition-timing-function: ease-out;
@@ -266,7 +247,7 @@ header {
   background-color: black;
   color: white;
 }
-/* END SOCIAL NAV */
+/* <<<<<<<<<<< END SOCIAL NAV >>>>>>>>>>>> */
 
 
 
