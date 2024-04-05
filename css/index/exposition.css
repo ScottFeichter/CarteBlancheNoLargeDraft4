@@ -19,31 +19,21 @@
     animation-fill-mode: forwards;
   }
 
-  #logoSmallExpo {
-
-    position: -webkit-sticky; /*Safari*/
-    position: sticky;
-    padding: 1rem;
-    top: 0;
-    display: inline;
-    height: 5rem;
-    width: 5rem;
-    background-color: rgba(255, 255, 255, 65%);
-    backdrop-filter: blur(30px);
-
-    z-index: 3;
-    /* border: 2px pink dashed; */
-  }
+ 
 
  #anythingGoes {
-    font-size: 80px;
-    font-weight: 500;
-    padding-bottom: 4rem;
+  position: relative;
+  top: 400px;
+  font-size: 80px;
+  font-weight: 500;
+  padding-bottom: 4rem;
+  text-align: center;
 
-    animation-delay: 10s;
-    animation: fadeInAnimation ease 10s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+  animation-delay: 10s;
+  animation: fadeInAnimation ease 10s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
  }
 
  #textContainer {
