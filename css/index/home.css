@@ -54,7 +54,7 @@
     position: -webkit-sticky; /*Safari*/
     position: sticky;
     padding: 1rem;
-    top: 0;
+    top: -0;
     display: inline;
     height: 5rem;
     width: 5rem;
