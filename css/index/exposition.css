@@ -23,10 +23,11 @@
 
  #anythingGoes {
   position: relative;
-  top: 300px;
+  top: 14rem;
+
   font-size: 80px;
   font-weight: 500;
-  padding-bottom: 4rem;
+  /* padding-bottom: 4rem; */
   text-align: center;
 
   animation-delay: 10s;
