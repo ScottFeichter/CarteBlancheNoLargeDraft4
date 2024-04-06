@@ -57,7 +57,7 @@
 
  #audioContainer {
     margin-top: 0 auto 0 auto;
-    padding: .5rem 0rem 1rem 0rem;
+    padding: 1.5rem 0rem 1rem 0rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -98,7 +98,8 @@
     border-radius: 20px;
     font-size: 1.5rem;
     color: #ffffff;
-    margin-top: .5rem;
+    margin-top: 1rem;
+    padding: 0rem 1rem .25rem 1rem;
 
     text-align: center;
 
